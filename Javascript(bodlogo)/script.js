@@ -154,12 +154,45 @@
 
 // 1. Add up the Numbers from a Single Number
 
-function Single(){
-    let Number = prompt("too oruulna uu!")
-    for ( let i = 1; i <= Number; i++) {
-        let b;  
-        console.log(b);
-        return
-    }
-}
-Single();
+// function Single(){
+//     let Number = prompt("too oruulna uu!")
+//     for ( let i = 1; i <= Number; i++) {
+//         let b = 0;  
+//         console.log(b = i + Number);
+//         return
+//     }
+// }
+// Single();
+// 2. Matchstick Houses
+
+// function matchthouse() {
+//     a = prompt("too oruulna uu")
+//     if (a == 1) {
+//         console.log(a * 6);
+//     } else {
+//         console.log((a * 6) - (a - 1));
+//     }
+// }
+// matchthouse();
+
+// 3. Left Shift by Powers of Two
+
+// function power(){
+//     let a = prompt("too oruulna uu ")
+//     let b = prompt("too oruulna uu ")
+//     console.log((Math.pow(2, b)) * a);
+//     return
+// }
+// power();
+
+// 4.  Find the Smallest and Biggest Numbers
+// let number = [1, 2, 3, 4];
+// function bigsmall() {
+//     console.log(Math.max(number), Math.min(number));
+//     return
+// }
+// bigsmall();
+
+
+
+
