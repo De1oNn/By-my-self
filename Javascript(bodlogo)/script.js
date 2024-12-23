@@ -1,3 +1,5 @@
+// VERY EASY
+
 // 1. Return the Sum of Two Numbers
 // let a = -5; let b = 2
 // console.log(a - b);
@@ -96,3 +98,68 @@
 //     return
 // }
 // triangle();
+
+// 11. Find the Perimeter of a Rectangle
+
+// function triangle() {
+//     a = 1; 
+//     b = 3; 
+//     console.log((a + b) * 2);
+//     return
+// }
+// triangle();
+
+// 12. Return Something to Me!
+
+// function Something() {
+//     console.log("something " + prompt("ner"));
+//     return
+// }
+// Something();
+
+// 13. Is the Number Less than or Equal to Zero?
+// function zero() {
+//     let a = prompt("too oruulna uu");
+//     if (a == 0){
+//         console.log(true);
+//     } else if (a == String) {
+//         console.log("too oruulna uu");
+//     } else {
+//         console.log(false);
+//     }
+// }
+// zero();
+
+// 14. Basketball Points
+
+// function basketball() {
+//     let a = prompt("3 iin shidelt")
+//     let b = prompt("dundaas")
+//     console.log((a * 3) + (b * 2));
+//     return
+// }
+// basketball();
+
+// 15. Basic Variable Assignment
+
+// function Variable() {
+//     let Variable = prompt("ug oruulna uu")
+//     let dragin = prompt("dragin ug oruul")
+//     console.log(Variable +  dragin);
+//     return 
+// }
+// Variable();
+
+//EASY
+
+// 1. Add up the Numbers from a Single Number
+
+function Single(){
+    let Number = prompt("too oruulna uu!")
+    for ( let i = 1; i <= Number; i++) {
+        let b;  
+        console.log(b);
+        return
+    }
+}
+Single();
