@@ -193,6 +193,15 @@
 // }
 // bigsmall();
 
+//5. How Much is True?
+
+// function counttrue (arr) {
+//     return arr.filter(Boolean).length;
+// }
+// console.log(counttrue([true, false, true, true]));
+
+//6. A Redundant Function
+
 
 
 
