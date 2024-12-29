@@ -7,19 +7,22 @@ const listitems = document.querySelector(".list-items")
 listitems.style.color = "red"
 console.log(listitems);
 // hervee olon class baihiin bol bugdiign songoj avaad tuund n stle uguh 
-const all = document.querySelectorAll(".all")
-for(let i = 0; i < all.length; i++){
-    all[i].style.color = "blue"
-}
-console.log(all);
+// const all = document.querySelectorAll(".all")
+// for(let i = 0; i < all.length; i++){
+//     all[i].style.color = "blue"
+// }
+// console.log(all);
 
 // neg div ch ymuu songoj avaad tuun dotroo shine div li ul ged hussenee neeh 
 const div = document.querySelector(".list-items")
-const li = document.createElement("li")
-li.style.color = "blue"
-li.textContent = "hello wolrd"  
-div.append(li)
-console.log();
-li.innerText = "hello";
-li.setAttribute('h1','hello')
+div.style.border = "2px solid black"
+div.style.background = "aqua" 
 
+const li = document.createElement("li")
+
+div.append(li)
+
+li.innerText = "hello";
+li.classList.add(".list-items");
+
+// li.remove();
