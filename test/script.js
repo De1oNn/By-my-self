@@ -17,6 +17,9 @@ console.log(listitems);
 const div = document.querySelector(".list-items")
 div.style.border = "2px solid black"
 div.style.background = "aqua" 
+div.style.width = "50%"
+div.style.font = "5rem"
+div.style.height = "50%"
 
 const li = document.createElement("li")
 
